@@ -1,0 +1,24 @@
+{
+	"catalogue": {
+			"sortBy": "id",
+			"limit": 5,
+			"filterBy": {
+				"key":"user_id",
+				"value":1
+			}
+	},
+	"design": {
+		"body":[
+			"background-color:lightblue",
+			"margin:20px;"
+		],
+		"h1,p":[
+			"font-family:Cambria"
+		]
+	},
+	"menu": {
+		"Afficher les consultations":"showme.php",
+		"Afficher les types d'animaux":"showme.php?select=3",
+		"Afficher les consultations non payées":"consultations.php?unpaid"
+	}
+}
